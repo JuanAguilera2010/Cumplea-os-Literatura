@@ -1,0 +1,153 @@
+.text-title{
+ position:relative;
+ left:500px;
+
+}
+.two-text{
+    position:relative;
+    left:650px;
+    top:-20px;
+   
+}
+.texts{
+    border-style: solid;
+    width: 1460px;
+    background-color: yellow;
+    border-radius: 10%;
+}
+.button-open{
+    position:relative;
+    top:-420px;
+    left:670px;
+   
+}
+.abrir-regalo{
+    width: 100px;
+    height: 50px;
+}
+
+/*animation*/
+@keyframes agrandarHaciaAdelante {
+    0% {
+        transform: scale(1) translateZ(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(3) translateZ(100px);
+        opacity: 0;
+    }
+}
+body{
+    background-image: url(fondo.jpg); 
+}
+.agrandar {
+    animation: agrandarHaciaAdelante 0.6s ease-out forwards;
+}
+.video-container{
+  position: relative;
+  left:450px;
+}
+button{
+  border-radius: 5%;
+  background-color: orange;
+}
+button :hover{
+    background-color: rgb(145, 94, 0);
+}
+/*regalo 620*/
+.regalo{
+    position:relative;
+    left:550px;
+    top:128px;
+    
+    
+}
+.base{
+    position:relative;
+    left:40px;
+    width: 250px;
+    height: 250px;
+    background-color:rgb(247, 70, 70);
+    border-radius: 10%;
+    border: solid;
+}
+.tapa{
+    position:relative;
+    border:solid;
+    border-radius: 9%;
+    top:-280px;
+    left: 36px;
+    width: 260px;
+    height: 60px;
+    background-color:rgb(247, 70, 70);
+}
+.envoltorio-base{
+    position:relative;
+    border-radius:5%;
+    border: solid;
+    top:-282px;
+    left:146px;
+    width: 50px;
+    height: 216px;
+    background-color: rgb(251, 251, 99);
+}
+.envoltorio-tapa{
+    position:relative;
+    border:solid;
+    border-radius: 10%;
+    left:141px;
+    top:-566px;
+    width: 60px;
+    height: 60px;
+    background-color:rgb(251, 251, 99) ;
+}
+.bolita-tapa{
+    position:relative;
+    border: solid;
+    border-radius:100%;
+    left:142px;
+    top:-674px;
+    height: 40px;
+    width: 50px;
+    background-color: yellow;
+}
+.tira-uno{
+    transform:rotate(70deg);
+    border: solid;
+    border-radius: 100%;
+    position:relative;
+    left:62px;
+    top:-766px;
+    height: 80px;
+    width:100px;
+    background-color: rgb(251, 251, 101);
+}
+.tira-dos{
+    transform:rotate(-70deg);
+    border-style: solid;
+    border-radius: 100%;
+    position:relative;
+    left: 168px;
+    top:-852px;
+    height: 80px;
+    width:100px;
+    background-color:rgb(251, 251, 101);
+}
+.text-final{
+    background-color: yellow;
+    position:relative;
+    left:200px;
+    top:30px;
+    border-style:solid;
+    border-radius: 10%;
+    width: 1000px;
+}
+.button-next{
+    position:relative;
+    left:670px;
+    top:50px;
+}
+.next{
+    width: 100px;
+    height: 50px;
+}
